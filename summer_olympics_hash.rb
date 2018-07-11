@@ -48,10 +48,7 @@ summer_olympics.keys.each do |location|
   upcased_cities[count] = location
   count += 1
 end
-put
 
-
-
-
+puts upcased_cities
 
 end
