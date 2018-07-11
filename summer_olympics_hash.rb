@@ -20,7 +20,7 @@ def add_a_key_value_pair
 end
 
 def iterate_throcounter = 0
-  summer_olympics.each do |location,year|
+  summer_olympics.each do |location, year|
     puts "The #{year} summer olympics took place in #{location}"
   end
 end
