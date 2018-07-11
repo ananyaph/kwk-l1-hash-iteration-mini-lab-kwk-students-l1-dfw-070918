@@ -34,5 +34,24 @@ summer_olympics[:Atlanta] = "1996"
 end
 
 def iterate_through_keys
+   summer_olympics = {
+  :Sydney => "2000", 
+  :Athens => "2004", 
+  :Beijing => "2008", 
+  :London => "2012"
+}
+summer_olympics[:Atlanta] = "1996"
+upcased_cities = []
+count = 0
+summer_olympics.keys.each do |location|
+  location = location.upcase
+  upcased_cities[count] = location
+  count += 1
+end
+put
+
+
+
+
 
 end
