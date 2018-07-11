@@ -19,7 +19,7 @@ def add_a_key_value_pair
   summer_olympics
 end
 
-def iterate_throcounter
+def iterate_through_hash
   summer_olympics.each do |location, year|
     puts "The #{year} summer olympics took place in #{location}"
   end
